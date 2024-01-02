@@ -1,0 +1,201 @@
+body {
+    background-color: #000000;
+    padding: 2rem;
+    align-items: center;
+    max-width: 650px;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    max-width: 15%;
+    height: auto;
+    border-radius:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    font-family: 'Oswald';
+    text-align: center;
+    color:#fff;
+}
+.box {
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    background: #FFFEFA;
+    border-radius: 50px;
+    height: fit-content;
+    margin-top: 4%;
+}
+.box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  transition: transform .2s ease-in-out;
+}
+.img2{
+    max-width: 52%;
+    height: auto;
+    border-radius:50%;
+    margin-top: 0%;
+    padding: 3px;
+}
+.text2{
+    color: #000000;
+    font-size: 9px;
+    font-family:Courier, monospace;
+}
+.text3{
+  color:#fff;
+  font-family:system-ui;
+  align-items:left;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
+html {
+  background: black(41, 41, 41);
+  background: -moz-linear-gradient(
+    180deg,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 100%
+  );
+  background: black(
+    180deg,
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#292929",endColorstr="#181e30",GradientType=1);
+  height: 100%;
+  width: 100%;
+}
+
+p,
+a {
+  text-align: center;
+  margin-top:5%;
+  margin-bottom: 2rem;
+  color: #eee;
+}
+
+ul {
+  display: flex;
+  align-items:center;
+  justify-content:flex-start;
+  margin: 1rem;
+  margin-left: 12rem;
+  list-style-type: none;
+  font-size: 1rem;
+}
+
+ul li {
+  padding: 1rem;
+}
+
+.fab {
+  font-size: 28px;
+}
+
+/* transition for social icon hover animation */
+.fa-facebook,
+.fa-codepen,
+.fa-youtube,
+.fa-instagram,
+.fa-github,
+.fa-pinterest,
+.fa-twitter {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+/* social media icons hover color */
+.fa-facebook:hover,
+.fa-facebook:focus {
+  color: #0f3d7a;
+  transform: scale(1.1);
+}
+
+.fa-twitter:hover,
+.fa-twitter:focus {
+  color: #1da1f2;
+  transform: scale(1.1);
+}
+
+.fa-youtube:hover,
+.fa-youtube:focus {
+  color: #df2426;
+  transform: scale(1.1);
+}
+
+.fa-instagram:hover,
+.fa-instagram:focus {
+  color: #990f49;
+  transform: scale(1.1);
+}
+
+.fa-github:hover,
+.fa-github:focus {
+  color: #000;
+  transform: scale(1.1);
+}
+
+.fa-github:hover,
+.fa-github:focus {
+  color: #000;
+  transform: scale(1.1);
+}
+
+.fa-codepen:hover,
+.fa-codepen:focus {
+  color: #000;
+  transform: scale(1.1);
+}
+
+.fa-pinterest:hover,
+.fa-pinterest:focus {
+  color: #b3001b;
+}
+
+.picture{
+  display: flex;
+  width: 150%;
+  border-radius: 90%;
+  margin-right:100%
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 30%; /* Adjust image width as needed */
+  height: auto;
+  float: left;
+  margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+.description {
+  flex: 1;
+}
+
+.description h3 {
+  font-size: 1.3em;
+  margin-top: 0;
+  color: #eee;
+  margin-left: 10px;
+  font-family:system-ui;
+}
+
+.description p {
+  font-size: 1em;
+  line-height: 25px;
+  color: #eee;
+  text-align: left;
+  margin-left: 10px;
+}
+
